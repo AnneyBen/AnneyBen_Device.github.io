@@ -1,0 +1,221 @@
+/* fonts fonts fonts */
+
+@font-face {
+    font-family: 'Gilroy Light';
+    src: url('Gilroy-Light.eot');
+    src: url('Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+    url('Gilroy-Light.woff') format('woff'),
+    url('Gilroy-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy Extra Bold';
+    src: url('Gilroy-ExtraBold.eot');
+    src: url('Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('Gilroy-ExtraBold.woff') format('woff'),
+    url('Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.visually-hidden{
+    position: absolute !important;
+    height: 1px; width: 1px; 
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: polygon(0px 0px, 0px 0px,0px 0px, 0px 0px);
+}
+
+
+.profile-navigation a,
+.profile-navigation input,
+.profile-navigation-footer a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    vertical-align: 30px;
+    letter-spacing: 0.15px;
+}
+
+.feuaters-navigation a,
+.feuaters-navigation-footer a,
+.a-before{
+    font-family: 'Gilroy Extra Bold', sans-serif;
+    font-size: 18px;
+    vertical-align: 24px;
+    letter-spacing: 3.6px;
+}
+
+a.main-logo{
+    font-family: 'Gilroy Extra Bold', sans-serif;
+    font-size: 48px;
+    vertical-align: 48px;
+    letter-spacing: 0.15px;
+}
+
+.article_slide h2{
+    font-family: 'Gilroy Extra Bold', sans-serif;
+    font-size: 47px;
+    vertical-align: 56px;
+    letter-spacing: 0.15px;
+}
+
+.article_slide p,
+.services-section p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    vertical-align: 30px;
+    letter-spacing: 0.15px;
+}
+
+.characteristic-item .properties{
+    font-family: 'Gilroy Light', sans-serif;
+    font-size: 36px;
+    vertical-align: 48px;
+    letter-spacing: 0.15px;
+}
+
+.characteristic-item .internals{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    vertical-align: 20px;
+    letter-spacing: 0.15px;
+}
+
+.popular-section span{
+    font-family: 'Gilroy Extra Bold', sans-serif;
+    font-size: 18px;
+    vertical-align: 24px;
+    letter-spacing: 0.15px;
+}
+
+.services-section h2{
+    font-family: 'Gilroy Extra Bold', sans-serif;
+    font-size: 47px;
+    vertical-align: 48px;
+    letter-spacing: 0.15px;
+}
+
+.info_contact-section h2{
+    font-family: 'Gilroy Extra Bold', sans-serif;
+    font-size: 47px;
+    vertical-align: 48px;
+    letter-spacing: 0.15px;
+}
+
+.info_contact-section p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    vertical-align: 30px;
+}
+
+.logistic-list li{
+    font-family: 'Gilroy Extra Bold', sans-serif;
+    font-size: 16px;
+    vertical-align: 24px;
+    letter-spacing: 0.15px;
+}
+
+.feuaters-navigation-footer .only_li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    vertical-align: 30px;
+}
+
+
+
+.stick-for-self h1{
+    font-family: 'Gilroy Extra Bold', sans-serif;
+    font-size: 47px;
+    vertical-align: 48px;
+    letter-spacing: 0.15px;
+}
+
+.breadcrumbs-list a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    vertical-align: 24px;
+    letter-spacing: 0.15px;
+}
+
+.filter-section h3,
+.products-section h3{
+    font-family: 'Gilroy Extra Bold', sans-serif;
+    font-size: 16px;
+    vertical-align: 24px;
+    letter-spacing: 3.6px;
+}
+
+form legend{
+    font-family: 'Gilroy Extra Bold', sans-serif;
+    font-size: 18px;
+    vertical-align: 24px;
+    letter-spacing: 0.15px;
+}
+
+form label{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    vertical-align: 40px;
+    letter-spacing: 0.15px;
+}
+
+.sorting-list a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    vertical-align: 18px;
+}
+
+.flex-container p{
+    font-family: 'Gilroy Extra Bold', sans-serif;
+    font-size: 18px;
+    vertical-align: 24px;
+    letter-spacing: 0.15px;
+}
+
+.flex-container span{
+    font-family: 'Gilroy Light', sans-serif;
+    font-size: 16px;
+    vertical-align: 24px;
+    letter-spacing: 0.15px;
+}
+
+.pagination a{
+    font-family: 'Gilroy Extra Bold', sans-serif;
+    font-size: 16px;
+    vertical-align: 24px;
+    letter-spacing: 3.6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

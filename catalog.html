@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalog Device</title>
+    <link rel="stylesheet" href="/css/normalize.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+
 </head>
 <body>
     <header class="main-header">
@@ -30,7 +34,7 @@
             <h1>Моноподы для селфи</h1>
             <ul class="breadcrumbs-list">
                 <li><a href="#">Главная</a></li>
-                <li><a href="#">Катфлог товаров</a></li>
+                <li><a href="#">Католог товаров</a></li>
                 <li><a href="#">Моноподы для селфи</a></li>
             </ul>
         </nav>
@@ -45,22 +49,22 @@
                     </fieldset>
                     <fieldset class="color">
                         <legend class="color">Цвет</legend>
-                        <input type="checkbox" class="input-checkbox" name="black" id="black" checked/>
+                        <input type="checkbox" class="input-checkbox visually-hidden" name="black" id="black" checked/>
                         <label for="black">Черный</label>
-                        <input type="checkbox" class="input-checkbox" name="white" id="white"/>
+                        <input type="checkbox" class="input-checkbox visually-hidden" name="white" id="white"/>
                         <label for="white">Белый</label>
-                        <input type="checkbox" class="input-checkbox" name="blue" id="blue" checked/>
+                        <input type="checkbox" class="input-checkbox visually-hidden" name="blue" id="blue" checked/>
                         <label for="blue">Синий</label>
-                        <input type="checkbox" class="input-checkbox" name="red" id="red" checked/>
+                        <input type="checkbox" class="input-checkbox visually-hidden" name="red" id="red" checked/>
                         <label for="red">Красный</label>
-                        <input type="checkbox" class="input-checkbox" name="pink" id="pink"/>
+                        <input type="checkbox" class="input-checkbox visually-hidden" name="pink" id="pink"/>
                         <label for="pink">Розовый</label>
                     </fieldset>
                     <fieldset class="bluetooth">
                         <legend class="bluetooth">Bluetooth</legend>
-                        <input type="radio" class="input-radio input-radio-checked" name="have" id="have" checked>
+                        <input type="radio" class="input-radio input-radio-checked visually-hidden" name="have" id="have" checked>
                         <label for="have">Есть</label>
-                        <input type="radio" class="input-radio" name="have" id="havent">
+                        <input type="radio" class="input-radio visually-hidden" name="have" id="havent">
                         <label for="havent">Нет</label>
                     </fieldset>
                     <a href="#" class="a-before">ПОКАЗАТЬ</a>
@@ -69,11 +73,11 @@
                 
             <section class="products-section">
                 <div class="sorting">
-                    <h3>СОРТИРОВКА</h3>
+                    <h3>СОРТИРОВКА:</h3>
                     <ul class="sorting-list">
                         <li><a href="#" class="sorting-here">По цене</a></li>
-                        <li><a href="#"></a>По типу</li>
-                        <li><a href="#"></a>По популярности</li>
+                        <li><a href="#">По типу</a></li>
+                        <li><a href="#">По популярности</a></li>
                     </ul>
                     <div class="sorting-button-list">
                         <button class="sorting-button"></button>
@@ -87,28 +91,28 @@
                             <a href="#">
                                 <img src="/img/item-1.jpg" alt="Любительская селфи-палка"/>
                                 <p class="about-product">Любительская селфи-палка</p>
-                                <span class="cost-product">500 руб</span>
+                                <span class="cost-product">500 руб.</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <img src="/img/item-2.jpg" alt="Профессиональная селфи-палка"/>
                                 <p class="about-product">Профессиональная селфи-палка</p>
-                                <span class="cost-product">1 500 руб</span>
+                                <span class="cost-product">1 500 руб.</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <img src="/img/item-3.jpg" alt="Непотопляемая селфи-палка"/>
                                 <p class="about-product">Непотопляемая селфи-палка</p>
-                                <span class="cost-product">2 500 руб</span>
+                                <span class="cost-product">2 500 руб.</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <img src="/img/item-4.jpg" alt="Селфи-палка Следуй за мной"/>
                                 <p class="about-product">Селфи-палка "Следуй за мной"</p>
-                                <span class="cost-product">4 900 руб</span>
+                                <span class="cost-product">4 900 руб.</span>
                             </a>
                         </li>
                     </ul>
@@ -129,18 +133,18 @@
     <footer class="main-footer">
         <nav class="navigation-footer">
             <ul class="profile-navigation-footer">
-                <li><a href="#">DEVICE</a></li>
+                <li><a href="#" class="main-logo">DEVICE</a></li>
                 <li><a href="#" class="a_user">Валентин Петухов</a></li>
                 <li><a href="#" class="a_log-off">Выйти</a></li>
                 <li><a href="#" class="a_compare">Сравнить</a></li>
                 <li><a href="#" class="a_cart">Корзина</a></li>
             </ul>
             <ul class="feuaters-navigation-footer">
-                <li>г.Москва, ул.Строителей,15</li>
+                <li class="only_li">г.Москва, ул.Строителей,15</li>
                 <li><a href="#" class="a_delivery">ДОСТАВКА</a></li>
                 <li><a href="#" class="a_guarantee">ГАРАНТИЯ</a></li>
                 <li><a href="#" class="a_contacts">КОНТАКТЫ</a></li>
-                <li>Тел.: +7(495)495-95-95</li>
+                <li class="only_li">Тел.: +7(495)495-95-95</li>
             </ul>
             <ul class="svg-list">
                 <ul class="networks-list">
