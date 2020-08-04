@@ -55,7 +55,7 @@ ul{
     font-family: 'Gilroy Extra Bold', sans-serif;
     font-size: 18px;
     vertical-align: 24px;
-    letter-spacing: 3.6px;
+    letter-spacing: 0.2em;
 }
 
 a.main-logo{
@@ -209,6 +209,116 @@ form label{
 
 
 
+/* buttons buttons buttons */
+
+.profile-navigation input{
+    outline: none;
+    border: none;
+}
+
+.profile-navigation input::placeholder{
+    opacity: 30%;
+} 
+
+.header-navigation a:hover,
+.navigation-footer a:hover,
+.main-logo:hover{
+    opacity: 60%;
+}
+
+.header-navigation input:hover::placeholder{
+    opacity: 60%;
+}
+
+.header-navigation a:focus,
+.navigation-footer a:focus,
+.header-navigation a:active,
+.navigation-footer a:active,
+.main-logo:focus,
+.main-logo:active{
+    opacity: 30%;
+}
+
+.header-navigation input:focus::placeholder,
+.header-navigation input:active::placeholder{
+    opacity: 100%;
+}
+
+.article_slide a{
+    padding: 10px 42px;
+    position: relative;
+    
+
+    
+}
+
+.article_slide a::before{
+    content: "";
+    position: absolute;
+    background-color:#f0c52e;
+    width: 220px;
+    height: 6px;
+    border-top: 1px solid #f4d361;
+    border-bottom: 1px solid #f4d361;
+    background-size: 220px 8px;
+    top: 17px;
+    left: 0;
+    z-index: -1;
+}
+
+.article_slide a:hover::before{
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    border: none;
+}
+
+.article_slide a:hover{
+    background-color:#f0c52e;
+}
+
+.article_slide a:focus,
+.article_slide a:active{
+    background-color:#f0c52e;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.info-article .a-before{
+    padding: 10px 22px;
+    position: relative;
+    margin: 50px;
+}
+
+.info-article .a-before::before{
+    content: "";
+    position: absolute;
+    background-color:#f0c52e;
+    width: 260px;
+    height: 6px;
+    border-top: 1px solid #f4d361;
+    border-bottom: 1px solid #f4d361;
+    background-size: 260px 8px;
+    top: 17px;
+    left: 0;
+    z-index: -1;
+}
+
+.info-article .a-before:hover::before{
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    border: none;
+}
+
+.info-article .a-before:hover{
+    background-color:#f0c52e;
+}
+
+.info-article .a-before:focus,
+.info-article .a-before:active{
+    background-color:#f0c52e;
+    color: rgba(0, 0, 0, 0.3);
+}
 
 
 
