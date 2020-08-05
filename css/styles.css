@@ -20,6 +20,10 @@
     font-style: normal;
 }
 
+*{
+    outline: none;
+}
+
 a{
     text-decoration: none;
     color: #000000;
@@ -244,12 +248,11 @@ form label{
     opacity: 100%;
 }
 
-.article_slide a{
-    padding: 10px 42px;
-    position: relative;
-    
 
-    
+
+.article_slide a{
+    padding: 10px 41.5px;
+    position: relative;
 }
 
 .article_slide a::before{
@@ -271,10 +274,14 @@ form label{
     position: absolute;
     background-color: transparent;
     border: none;
+    transition-property: background-color, border;
+    transition-duration: 0.6s;
 }
 
 .article_slide a:hover{
     background-color:#f0c52e;
+    transition-property: background-color;
+    transition-duration: 0.7s;
 }
 
 .article_slide a:focus,
@@ -283,10 +290,11 @@ form label{
     color: rgba(0, 0, 0, 0.3);
 }
 
+
+
 .info-article .a-before{
-    padding: 10px 22px;
+    padding: 10px 21px;
     position: relative;
-    margin: 50px;
 }
 
 .info-article .a-before::before{
@@ -308,10 +316,14 @@ form label{
     position: absolute;
     background-color: transparent;
     border: none;
+    transition-property: background-color, border;
+    transition-duration: 0.6s;
 }
 
 .info-article .a-before:hover{
     background-color:#f0c52e;
+    transition-property: background-color;
+    transition-duration: 0.7s;
 }
 
 .info-article .a-before:focus,
@@ -319,6 +331,274 @@ form label{
     background-color:#f0c52e;
     color: rgba(0, 0, 0, 0.3);
 }
+
+
+
+.contact-article .a-before{
+    padding: 10px 39px;
+    position: relative;
+}
+
+.contact-article .a-before::before{
+    content: "";
+    position: absolute;
+    background-color:#f0c52e;
+    width: 260px;
+    height: 6px;
+    border-top: 1px solid #f4d361;
+    border-bottom: 1px solid #f4d361;
+    background-size: 260px 8px;
+    top: 17px;
+    left: 0;
+    z-index: -1;
+}
+
+.contact-article .a-before:hover::before{
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    transition-property: background-color, border;
+    transition-duration: 0.6s;
+}
+
+.contact-article .a-before:hover{
+    background-color:#f0c52e;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+}
+
+.contact-article .a-before:focus,
+.contact-article .a-before:active{
+    background-color:#f0c52e;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+.services-list a.a-before{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.services-list a.a-before::before{
+    content: "";
+    position: absolute;
+    background-color:#f0c52e;
+    width: 160px;
+    height: 6px;
+    border-top: 1px solid #f4d361;
+    border-bottom: 1px solid #f4d361;
+    background-size: 160px 8px;
+    top: 15px;
+    left: 0;
+    z-index: -1;
+}
+
+.services-list a.a-before:hover::before{
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    transition-property: background-color, border;
+    transition-duration: 0.6s;
+}
+
+.services-list a.a-before:hover{
+    background-color:#f0c52e;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+}
+
+.services-list a.a-before:focus,
+.services-list a.a-before:active{
+    background-color:#000000;
+    color: #ffffff;
+}
+
+.services-list a.a-before:focus::before,
+.services-list a.a-before:active::before{
+    content: "";
+    position: absolute;
+    background-color:#000000;
+    width: 278px;
+    height: 40px;
+    background-size: 278px 40px;
+    border: none;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+
+.services-list a.a-before:focus,
+.services-list a.a-before:active{
+    transition-property: background-color;
+    transition-duration: 0s;
+}
+
+
+
+.filter-form .a-before{
+    padding: 10px 40px;
+    position: relative;
+}
+
+.filter-form .a-before::before{
+    content: "";
+    position: absolute;
+    background-color:#f0c52e;
+    width: 200px;
+    height: 6px;
+    border-top: 1px solid #f4d361;
+    border-bottom: 1px solid #f4d361;
+    background-size: 200px 8px;
+    top: 17px;
+    left: 0;
+    z-index: -1;
+}
+
+.filter-form .a-before:hover::before{
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    transition-property: background-color, border;
+    transition-duration: 0.6s;
+}
+
+.filter-form .a-before:hover{
+    background-color:#f0c52e;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+}
+
+.filter-form .a-before:focus,
+.filter-form .a-before:active{
+    background-color:#f0c52e;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+a.a_log-off{
+    opacity: 30%;
+}
+
+a.a_log-off:hover{
+    opacity: 60%;
+}
+
+a.a_log-off:focus,
+a.a_log-off:active{
+    opacity: 100%;
+}
+
+.breadcrumbs-list a{
+    opacity: 30%;
+}
+
+.breadcrumbs-list a:hover{
+    opacity: 60%;
+}
+
+.breadcrumbs-list a:focus,
+.breadcrumbs-list a:active{
+    opacity: 10%;
+}
+
+.sorting-list a{
+    opacity: 30%;
+}
+
+.sorting-list li:first-child a{
+    opacity: 100%;
+}
+
+.sorting-list li a:hover{
+    opacity: 60%;
+}
+
+.sorting-list a:active,
+.sorting-list a:focus{
+    opacity: 100%;
+}
+
+.sorting-button-list button{
+    border: none;
+    background-color: transparent;
+}
+
+.sorting-button-list button img{
+    opacity: 20%;
+}
+
+.sorting-button-list button:last-child img{
+    opacity: 100%;
+}
+
+.sorting-button-list button:hover img{
+    opacity: 40%;
+}
+
+.sorting-button-list button:focus img,
+.sorting-button-list button:active img{
+    opacity: 100%;
+}
+
+div.pagination{
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.pagination-list a{
+    opacity: 30%;
+}
+
+.pagination-list li:first-child a{
+    opacity: 100%;
+}
+
+.pagination-list a:hover{
+    opacity: 60%;
+}
+
+.pagination-list a:focus,
+.pagination-list a:active{
+    opacity: 100%;
+}
+
+.pagination .pagination-button:hover{
+    background-color: #d9d9d9;
+}
+
+.pagination .pagination-button:focus,
+.pagination .pagination-button:active{
+    background-color: #d9d9d9;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
+/* ВРЕМЕННЫЕ СТИЛИ */
+
+.services-list a.a-before{
+
+
+
+    margin-top: 30px;
+}
+
+
+
 
 
 
