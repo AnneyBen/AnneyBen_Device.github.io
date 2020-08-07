@@ -66,14 +66,14 @@ a.main-logo{
     font-family: 'Gilroy Extra Bold', sans-serif;
     font-size: 48px;
     vertical-align: 48px;
-    letter-spacing: 0.15px;
+    letter-spacing: 0.01em;
 }
 
 .article_slide h2{
     font-family: 'Gilroy Extra Bold', sans-serif;
     font-size: 47px;
     vertical-align: 56px;
-    letter-spacing: 0.15px;
+    letter-spacing: 0.55px;
 }
 
 .article_slide p,
@@ -82,7 +82,7 @@ a.main-logo{
     font-weight: 300;
     font-size: 15px;
     vertical-align: 30px;
-    letter-spacing: 0.15px;
+    letter-spacing: 0px;
 }
 
 .characteristic-item .properties{
@@ -218,6 +218,7 @@ form label{
 .profile-navigation input{
     outline: none;
     border: none;
+    background-color: transparent;
 }
 
 .profile-navigation input::placeholder{
