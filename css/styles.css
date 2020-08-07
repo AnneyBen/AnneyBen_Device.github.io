@@ -234,8 +234,7 @@ form label{
     opacity: 60%;
 }
 
-.header-navigation a:focus,
-.navigation-footer a:focus,
+
 .header-navigation a:active,
 .navigation-footer a:active,
 .main-logo:focus,
@@ -247,8 +246,6 @@ form label{
 .header-navigation input:active::placeholder{
     opacity: 100%;
 }
-
-
 
 .article_slide a{
     padding: 10px 41.5px;
@@ -284,13 +281,10 @@ form label{
     transition-duration: 0.7s;
 }
 
-.article_slide a:focus,
 .article_slide a:active{
     background-color:#f0c52e;
     color: rgba(0, 0, 0, 0.3);
 }
-
-
 
 .info-article .a-before{
     padding: 10px 21px;
@@ -326,7 +320,6 @@ form label{
     transition-duration: 0.7s;
 }
 
-.info-article .a-before:focus,
 .info-article .a-before:active{
     background-color:#f0c52e;
     color: rgba(0, 0, 0, 0.3);
@@ -368,7 +361,6 @@ form label{
     transition-duration: 0.7s;
 }
 
-.contact-article .a-before:focus,
 .contact-article .a-before:active{
     background-color:#f0c52e;
     color: rgba(0, 0, 0, 0.3);
@@ -478,7 +470,6 @@ form label{
     transition-duration: 0.7s;
 }
 
-.filter-form .a-before:focus,
 .filter-form .a-before:active{
     background-color:#f0c52e;
     color: rgba(0, 0, 0, 0.3);
@@ -495,7 +486,6 @@ a.a_log-off:hover{
     opacity: 60%;
 }
 
-a.a_log-off:focus,
 a.a_log-off:active{
     opacity: 100%;
 }
@@ -751,9 +741,80 @@ input[type="radio"]:checked:focus + label::before{
     opacity: 100%;
 }
 
+.button-group .slider-button{
+    border: none;
+    background-color: transparent;
+}
 
 
+/* icons icons icons */
 
+.a_popular-item div{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(240, 197, 46, 0.5);
+}
+
+.a_popular-item:hover div{
+    background-color: rgba(240, 197, 46, 1);
+}
+
+
+.a_popular-item:active img,
+.a_popular-item:active span{
+    opacity: 30%;
+}
+
+.logotypes-list img{
+    filter: grayscale(1);
+    opacity: 20%;
+}
+
+.logotypes-list img:hover{
+    filter: grayscale(0);
+    opacity: 100%;
+}
+
+.flex-container a{
+    display: block;
+    position: relative;
+    
+}
+
+.flex-container a:hover img{
+    opacity: 70%;
+}
+
+.flex-container a:hover::before{
+    content: "В КОРЗИНУ";
+    position: absolute;
+    font-family: 'Gilroy Extra Bold', sans-serif;
+    font-size: 18px;
+    vertical-align: 24px;
+    letter-spacing: 0.2em;
+    z-index: 2;
+    top: 180px;
+    left: 117px;
+}
+
+.flex-container a:hover::after{
+    content: "";
+    position: absolute;
+    
+    z-index: 1;
+    top: 185px;
+    left: 80px;
+
+    background-color: #f0c52e;
+    background-size: 200px 8px;
+    width: 200px;
+    height: 8px;
+}
+  
 
 
 
