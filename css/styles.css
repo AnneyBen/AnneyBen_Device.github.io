@@ -82,7 +82,7 @@ a.main-logo{
     font-weight: 300;
     font-size: 15px;
     vertical-align: 30px;
-    letter-spacing: 0px;
+    letter-spacing: 0em;
 }
 
 .characteristic-item .properties{
@@ -111,8 +111,19 @@ a.main-logo{
     font-family: 'Gilroy Extra Bold', sans-serif;
     font-size: 47px;
     vertical-align: 48px;
-    letter-spacing: 0.15px;
+    letter-spacing: 0.02em;
 }
+
+
+.services-section p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    vertical-align: 20px;
+    letter-spacing: 0.02em;
+    line-height: 2;
+}
+
 
 .info_contact-section h2{
     font-family: 'Gilroy Extra Bold', sans-serif;
@@ -374,8 +385,8 @@ form label{
     display: flex;
     justify-content: center;
     position: relative;
-    padding-top: 9px;
-    padding-bottom: 9px;
+    padding-top: 11px;
+    padding-bottom: 10px;
 }
 
 .services-list a.a-before::before{
@@ -387,7 +398,7 @@ form label{
     border-top: 1px solid #f4d361;
     border-bottom: 1px solid #f4d361;
     background-size: 160px 8px;
-    top: 15px;
+    top: 17px;
     left: 0;
     z-index: -1;
 }
@@ -400,6 +411,7 @@ form label{
     transition-property: background-color, border;
     transition-duration: 0.6s;
 }
+
 
 .services-list a.a-before:hover{
     background-color:#f0c52e;
@@ -419,8 +431,8 @@ form label{
     position: absolute;
     background-color:#000000;
     width: 278px;
-    height: 40px;
-    background-size: 278px 40px;
+    height: 100%;
+    background-size: 278px 100%;
     border: none;
     top: 0px;
     left: 0px;
@@ -433,6 +445,38 @@ form label{
 .services-list a.a-before:active{
     transition-property: background-color;
     transition-duration: 0s;
+}
+
+.services-list li:first-child a.a-before::before{
+    content: "";
+    position: absolute;
+    background-color:#000000;
+    width: 278px;
+    height: 100%;
+    background-size: 278px 100%;
+    border: none;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+
+.services-list li:first-child a.a-before{
+    color: #ffffff;
+}
+
+.services-list li:first-child a.a-before:hover::before{
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    transition-property: background-color, border;
+    transition-duration: 0.6s;
+}
+
+.services-list li:first-child a.a-before:hover{
+    color: #000000;
 }
 
 
@@ -833,12 +877,7 @@ input[type="radio"]:checked:focus + label::before{
 
 /* ВРЕМЕННЫЕ СТИЛИ */
 
-.services-list a.a-before{
 
-
-
-    margin-top: 30px;
-}
 
 
 fieldset{
