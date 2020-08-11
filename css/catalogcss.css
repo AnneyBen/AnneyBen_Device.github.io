@@ -1,0 +1,148 @@
+header{
+    max-width: 1160px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header::before{
+    content: "";
+    position: absolute;
+    background-color: #f0c52e;
+    opacity: 50%;
+    width: 100%;
+    height: 186px;
+    z-index: -1;
+    top: 28px;
+}
+
+ul{
+    padding: 0;
+}
+.header-navigation{
+    width: 1040px;
+    margin: 0 auto;
+
+}
+
+.profile-navigation{
+    width: 1040px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+
+.feuaters-navigation{
+    width: 1040px;
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+    width: 1044px;
+}
+
+.profile-navigation a{
+    position: relative;
+}
+
+.profile-navigation li:first-child{
+    position: relative;
+    margin-left: 37px;
+}
+
+.profile-navigation li:first-child::before{
+    content: "";
+    position: absolute;
+    background-image: url(/img/search.svg);
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    top: 1px;
+    left: -34px;
+    z-index: 1;
+
+}
+
+.profile-navigation .a_cart::before{
+    content: "";
+    position: absolute;
+    background-image: url(/img/cart.svg);
+    width: 12px;
+    height: 12px;
+    background-size: 12px 12px;
+    top: 5px;
+    left: -22px;
+    z-index: 1;
+
+}
+
+.profile-navigation .a_compare::before{
+    content: "";
+    position: absolute;
+    background-image: url(/img/compare.svg);
+    width: 10px;
+    height: 10px;
+    background-size: 10px 10px;
+    top: 6px;
+    left: -20px;
+    z-index: 1;
+
+}
+
+.profile-navigation .a_user::before{
+    content: "";
+    position: absolute;
+    background-image: url(/img/user.svg);
+    width: 13px;
+    height: 12px;
+    background-size: 13px 12px;
+    top: 4px;
+    left: -26px;
+    z-index: 1;
+
+}
+
+
+.profile-navigation li:first-child{
+    margin-right: 305px;
+}
+
+.profile-navigation li:nth-child(3){
+    margin-left: -43px; 
+}
+
+.profile-navigation li:nth-child(4){
+    margin-left: 21px; 
+}
+
+
+.header-navigation .main-logo{
+    display: block;
+    padding: 0;
+    margin-left: -3px;
+    margin-bottom: -2px;
+}
+
+.feuaters-navigation li:nth-child(2){
+    margin-left: 212px;
+    margin-right: -75px;
+}
+
+.feuaters-navigation li:first-child{
+    position: relative;
+}
+
+.feuaters-navigation li:first-child::after{
+    content: "";
+    position: absolute;
+    background-image: url(/img/plus.png);
+    opacity: 30%;
+    width: 16px;
+    height: 16px;
+    background-size: 16px;
+    top: 1px;
+    right: -27px;
+    z-index: 1;
+}
+

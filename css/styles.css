@@ -103,8 +103,8 @@ a.main-logo{
 .popular-section span{
     font-family: 'Gilroy Extra Bold', sans-serif;
     font-size: 18px;
-    vertical-align: 24px;
-    letter-spacing: 0.15px;
+    vertical-align: 3px;
+    letter-spacing: 0.01em;
 }
 
 .services-section h2{
@@ -758,6 +758,12 @@ input[type="radio"]:checked:focus + label::before{
     align-items: center;
 
     background-color: rgba(240, 197, 46, 0.5);
+}
+
+.popular-item:nth-child(2) div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .a_popular-item:hover div{

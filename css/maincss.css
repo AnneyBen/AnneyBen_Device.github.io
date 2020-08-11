@@ -149,6 +149,7 @@ ul{
     margin-left: 70px;
     justify-content: space-evenly;
     position: relative;
+    margin-bottom: 85px;
 }
 
 .slide-section::after{
@@ -233,5 +234,39 @@ ul{
 }
 
 
+/* popular section */
+
+.popular-list{
+    padding: 0;
+    margin: 0;
+
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-list .popular-item{
+    padding: 0;
+    margin: 0;
+    width: 160px;
+
+}
+
+.popular-item div{
+
+    margin-bottom: 35px;
+}
 
 
+/* services-section services-section services-section */
+
+.services-section{
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.services-section div{
+    width: 430px;
+}
