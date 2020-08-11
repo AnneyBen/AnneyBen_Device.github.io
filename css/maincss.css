@@ -343,4 +343,62 @@ ul{
     margin-top: 218px;  
     display: flex;
     justify-content: space-between;
+    margin-bottom: 97px;
 }
+
+/* info_contact-section info_contact-section */
+
+.info_contact-section{
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_contact-section p:first-of-type{
+    width: 421px;
+    margin-bottom: 30px;
+}
+
+.info-article p.we_can{
+    letter-spacing: 0.001em;
+    width: 480px;
+    margin-bottom: 80px;
+}
+
+.info-article li{
+    position: relative;
+    padding: 0;
+    margin-left: 36px;
+    margin-top: 22px;
+
+}
+
+.info-article li::before{
+    content: "";
+    position: absolute;
+    background-image: url(/img/slider-button-del.svg);
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;
+    left: -37px;
+    top: 2px;
+    opacity: 15%;
+}
+
+.info-article .logistic-list{
+    margin-bottom: 73px;
+}
+
+.info_contact-section .contact-article p{
+    width: 520px;
+    margin-bottom: 40px;
+}
+
+
+.contact-article figure{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 75px;
+}
+

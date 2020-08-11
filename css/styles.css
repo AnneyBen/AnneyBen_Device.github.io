@@ -137,6 +137,8 @@ a.main-logo{
     font-weight: 300;
     font-size: 15px;
     vertical-align: 30px;
+    letter-spacing: 0.005em;
+    line-height: 2;
 }
 
 .logistic-list li{
