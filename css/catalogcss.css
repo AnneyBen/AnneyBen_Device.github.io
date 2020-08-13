@@ -55,7 +55,7 @@ ul{
 .profile-navigation li:first-child::before{
     content: "";
     position: absolute;
-    background-image: url(/img/search.svg);
+    background-image: url(../img/search.svg);
     width: 16px;
     height: 16px;
     background-size: 16px 16px;
@@ -68,7 +68,7 @@ ul{
 .profile-navigation .a_cart::before{
     content: "";
     position: absolute;
-    background-image: url(/img/cart.svg);
+    background-image: url(../img/cart.svg);
     width: 12px;
     height: 12px;
     background-size: 12px 12px;
@@ -81,7 +81,7 @@ ul{
 .profile-navigation .a_compare::before{
     content: "";
     position: absolute;
-    background-image: url(/img/compare.svg);
+    background-image: url(../img/compare.svg);
     width: 10px;
     height: 10px;
     background-size: 10px 10px;
@@ -94,7 +94,7 @@ ul{
 .profile-navigation .a_user::before{
     content: "";
     position: absolute;
-    background-image: url(/img/user.svg);
+    background-image: url(../img/user.svg);
     width: 13px;
     height: 12px;
     background-size: 13px 12px;
@@ -137,7 +137,7 @@ ul{
 .feuaters-navigation li:first-child::after{
     content: "";
     position: absolute;
-    background-image: url(/img/plus.png);
+    background-image: url(../img/plus.png);
     opacity: 30%;
     width: 16px;
     height: 16px;
@@ -174,7 +174,7 @@ nav.stick-for-self h1{
 .breadcrumbs-list li::after{
     content: "";
     position: absolute;
-    background-image: url(/img/nav-arrow.svg);
+    background-image: url(../img/nav-arrow.svg);
     width: 4px;
     height: 7px;
     background-size: 4px 7px;
@@ -334,8 +334,6 @@ form a.a-before{
     margin-left: 50px;
 }
 
-.sorting h3{
-}
 
 .sorting-button-list{
     padding: 0;
@@ -454,7 +452,7 @@ footer .main-logo{
 .profile-navigation-footer .a_user::before{
     content: "";
     position: absolute;
-    background-image: url(/img/user-footer.svg);
+    background-image: url(../img/user-footer.svg);
     width: 13px;
     height: 12px;
     background-size: 13px 12px;
@@ -466,7 +464,7 @@ footer .main-logo{
 .profile-navigation-footer .a_cart::before{
     content: "";
     position: absolute;
-    background-image: url(/img/cart-footer.svg);
+    background-image: url(../img/cart-footer.svg);
     width: 12px;
     height: 12px;
     background-size: 12px 12px;
@@ -478,7 +476,7 @@ footer .main-logo{
 .profile-navigation-footer .a_compare::before{
     content: "";
     position: absolute;
-    background-image: url(/img/compare-footer.svg);
+    background-image: url(../img/compare-footer.svg);
     width: 10px;
     height: 10px;
     background-size: 10px 10px;

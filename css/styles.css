@@ -644,7 +644,7 @@ fieldset.color label{
 input[type="checkbox"] + label::before{
     content: "";
     position: absolute;
-    background-image: url(/img/checkbox-off.svg);
+    background-image: url(../img/checkbox-off.svg);
     width: 23px;
     height: 23px;
     background-size: 23px 23px;
@@ -655,7 +655,7 @@ input[type="checkbox"] + label::before{
 input[type="checkbox"]:checked + label::before{
     content: "";
     position: absolute;
-    background-image: url(/img/checkbox-on.svg);
+    background-image: url(../img/checkbox-on.svg);
     width: 27px;
     height: 23px;
     background-size: 27px 23px;
@@ -666,7 +666,7 @@ input[type="checkbox"]:checked + label::before{
 input[type="checkbox"]:hover + label::before{
     content: "";
     position: absolute;
-    background-image: url(/img/checkbox-off.svg);
+    background-image: url(../img/checkbox-off.svg);
     width: 23px;
     height: 23px;
     background-size: 23px 23px;
@@ -678,7 +678,7 @@ input[type="checkbox"]:hover + label::before{
 input[type="checkbox"]:checked:hover + label::before{
     content: "";
     position: absolute;
-    background-image: url(/img/checkbox-on.svg);
+    background-image: url(../img/checkbox-on.svg);
     width: 27px;
     height: 23px;
     background-size: 27px 23px;
@@ -691,7 +691,7 @@ input[type="checkbox"]:checked:hover + label::before{
 input[type="checkbox"]:active + label::before{
     content: "";
     position: absolute;
-    background-image: url(/img/checkbox-off.svg);
+    background-image: url(../img/checkbox-off.svg);
     width: 23px;
     height: 23px;
     background-size: 23px 23px;
@@ -704,7 +704,7 @@ input[type="checkbox"]:active + label::before{
 input[type="checkbox"]:checked:active + label::before{
     content: "";
     position: absolute;
-    background-image: url(/img/checkbox-on.svg);
+    background-image: url(../img/checkbox-on.svg);
     width: 27px;
     height: 23px;
     background-size: 27px 23px;
@@ -723,7 +723,7 @@ fieldset.bluetooth label{
 input[type="radio"] + label::before{
     content: "";
     position: absolute;
-    background-image: url(/img/radio-off.svg);
+    background-image: url(../img/radio-off.svg);
     width: 25px;
     height: 25px;
     background-size: 25px 25px;
@@ -734,7 +734,7 @@ input[type="radio"] + label::before{
 input[type="radio"]:checked + label::before{
     content: "";
     position: absolute;
-    background-image: url(/img/radio-on.svg);
+    background-image: url(../img/radio-on.svg);
     width: 25px;
     height: 25px;
     background-size: 25px 25px;
@@ -745,7 +745,7 @@ input[type="radio"]:checked + label::before{
 input[type="radio"]:hover + label::before{
     content: "";
     position: absolute;
-    background-image: url(/img/radio-off.svg);
+    background-image: url(../img/radio-off.svg);
     width: 25px;
     height: 25px;
     background-size: 25px 25px;
@@ -757,7 +757,7 @@ input[type="radio"]:hover + label::before{
 input[type="radio"]:checked:hover + label::before{
     content: "";
     position: absolute;
-    background-image: url(/img/radio-on.svg);
+    background-image: url(../img/radio-on.svg);
     width: 25px;
     height: 25px;
     background-size: 25px 25px;
@@ -769,7 +769,7 @@ input[type="radio"]:checked:hover + label::before{
 input[type="radio"]:focus + label::before{
     content: "";
     position: absolute;
-    background-image: url(/img/radio-off.svg);
+    background-image: url(../img/radio-off.svg);
     width: 25px;
     height: 25px;
     background-size: 25px 25px;
@@ -781,7 +781,7 @@ input[type="radio"]:focus + label::before{
 input[type="radio"]:checked:focus + label::before{
     content: "";
     position: absolute;
-    background-image: url(/img/radio-on.svg);
+    background-image: url(../img/radio-on.svg);
     width: 25px;
     height: 25px;
     background-size: 25px 25px;
